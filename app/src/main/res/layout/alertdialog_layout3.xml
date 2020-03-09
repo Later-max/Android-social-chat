@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AF9DFC"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="标题："
+            android:textSize="22dp"
+            />
+        <EditText
+            android:id="@+id/Htitle"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:hint="请编写你的标题"
+            android:background="@drawable/translucent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="内容："
+            android:textSize="22dp"/>
+        <EditText
+            android:id="@+id/Hcont"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:hint="请编辑你的内容"
+            android:background="@drawable/translucent"/>
+    </LinearLayout>
+
+</LinearLayout>

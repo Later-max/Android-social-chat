@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_my"
+        android:icon="@drawable/user"
+        android:title="我的"/>
+    <item
+        android:id="@+id/nav_first"
+        android:icon="@drawable/user"
+        android:title="教学楼"/>
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/region"
+        android:title="宿舍楼"/>
+    <item
+        android:id="@+id/nav_mail"
+        android:icon="@drawable/order_unread"
+        android:title="查找寝室"/>
+
+    <item
+        android:id="@+id/nav_name"
+        android:icon="@drawable/sub_account"
+        android:title="查找好友"/>
+
+    <item
+        android:id="@+id/nav_task"
+        android:icon="@drawable/setting"
+        android:title="食堂"/>
+    </group>
+    <item
+        android:id="@+id/nav_second"
+        android:icon="@drawable/sub_account"
+        android:title="论坛"/>
+</menu>

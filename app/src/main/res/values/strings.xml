@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">TodayNews</string>
+    <string name="appName">今日新闻</string>
+    <string name="nav_profile">个人简介</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_name">何东</string>
+
+</resources>

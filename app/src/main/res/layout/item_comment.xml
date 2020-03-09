@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3.5"
+        android:layout_height="wrap_content">
+    <TextView
+        android:text="何东"
+        android:id="@+id/comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5792ED"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:text="第八九十"
+        android:id="@+id/comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#388365"
+        android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="2020-01-02"
+            android:textColor="#A2A2A2"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

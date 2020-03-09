@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materialtestc.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开相册"/>
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库导入"/>
+    <TextView
+        android:id="@+id/tet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a"/>
+    <ImageView
+        android:id="@+id/txt"
+        android:src="@drawable/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
